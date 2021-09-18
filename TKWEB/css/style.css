@@ -61,8 +61,6 @@
 }
 .chubaner{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
 }
 .chumot{
     font-size: 3.5rem;
@@ -101,7 +99,6 @@
     padding: 10px 2px 10px 2px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    float: left;
 }
 .itemhader>p{
     margin: 0;
@@ -109,7 +106,6 @@
 }
 .itemhinh{
     width: 100%;
-    height: 180px;
 }
 .padingitem{
     padding: 10px;
@@ -170,7 +166,6 @@
 }
 .haderbanchay{
     font-size: 30px;
-    font-family:'Courier New', Courier, monospace;
 }
 .sale{
     background-color: brown;
@@ -193,7 +188,6 @@
     float: left;
     margin-right: 1%;
     border-radius: 5px;
-    font-family: 'Times New Roman', Times, serif;
 }
 .cttab-thanhchon:hover{
     text-decoration: none;
@@ -305,19 +299,6 @@
     margin-top: 10px;
     margin-left: 5px;
 }
-.itemdam{
+.itemgiadam{
     font-weight: bold;
-}
-.gotopbtn{
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    background:black;
-    bottom: 40px;
-    right: 40px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 40px;
-    color: white;
-    font-size: 22px;
 }
