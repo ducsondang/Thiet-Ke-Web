@@ -10,16 +10,17 @@
 .tablenav{
     background-color: white;
     width: 1140px;
-    height: 50px;
+    height: 35px;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 10px;
 }
 .hrela{
-    color:#a2b4b1;
+    color:black;
     margin: 5px;
     font: optional;
-    font-size: 25px;
+    text-decoration: none;
+    font-size: 20px;
 }
 .hrela:hover{
     color: black;
@@ -37,6 +38,7 @@
 .divchinh{
     width: 1140px;
     margin: auto;
+    z-index: 10;
 }
 .articlechinh{
     width: 100%;
@@ -56,6 +58,7 @@
     border-radius: 5px;
     background-size: cover;
     margin-bottom: 10px;
+    margin-top: 160px;
 }
 .banerhinh{
     background-size: cover;
@@ -103,6 +106,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     float: left;
+    width: 100%;
 }
 .itemhader>p{
     margin: 0;
@@ -141,10 +145,9 @@
 
 }
 .btsearch{
-    color:#a2b4b1;
-}
-.bt{
+    color: black;
     border: 1px;
+    background-color: #f3d1b6;
 }
 .iput{
     border:#a2b4b1; ;
@@ -152,6 +155,9 @@
 .ct-item{
     overflow: hidden;
     margin:auto
+}
+.ct-item>strong{
+    float: left;
 }
 .ct-itemm{
     float: left;
@@ -190,7 +196,7 @@
 }
 .thanhchon{
     width: 25%;
-    background-color:white;
+    background-color:#f3d1b6;
     float: left;
     margin-right: 1%;
     border-radius: 5px;
@@ -206,6 +212,8 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
+    background-color: white;
+    border-color: white;
 }
 .item:hover{
     text-decoration: none;
@@ -321,4 +329,77 @@
     line-height: 40px;
     color: white;
     font-size: 22px;
+}
+.hader-main{
+    background-color: #f3d1b6;
+    /* padding-bottom: 10px; */
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.nav-main{
+    /* margin-bottom: 10px; */
+}
+.ct-text-header-items{
+    width: 600px;
+    background-color:#f3d1b6;
+    border-radius: 99px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.banerqcleftright{
+    position: relative;
+}
+.banerqcleft{
+    position: fixed;
+}
+.banerqcright{
+    position: fixed;
+}
+.comment-to-admin{
+    position: fixed;
+    left: 1620px;
+    top: 640px;
+    border-radius: 5px;
+    background-color: white;
+    width: 182px;
+}
+.body-comment-admin{
+    margin: 10px;
+}
+.footer-comment-admin{
+    /* margin: 10px; */
+    border-top: 1px solid black;
+    overflow: hidden;
+}
+.footer-comment-admin>p{
+    margin: 5px 10px 0 10px;
+    float: left;
+}
+.footer-comment-admin>button{
+    margin: 5px 10px 0 10px;
+    float: left;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    height: 30px;
+    margin-bottom: 5px;
+    box-shadow: none;
+}
+.bd-comment-admin{
+    overflow: hidden;
+}
+.img-comment-admin{
+    float: left;
+    height: 60px;
+    margin-left: 20px;
+}
+.hd-comment-admin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hd-comment-admin>p{
+    font-weight: bold;
+    border-bottom: 1px solid black;
 }
