@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://img2.thuthuatphanmem.vn/uploads/2018/12/30/anh-background-cuc-dep_110341116.jpg);
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    
+}
+.resign{
+   background-color:white;
+   width: 300px;
+   height: 520px;
+   border: 1px solid grey;
+   border-radius: 10px;
+   text-align: center;
+   margin: 0 auto;
+}
+.resign h1{
+   display: inline-block;
+   color: grey;
+}
+.resign input{
+   width: 200px;
+   height: 40px;
+   border-radius: 5px;
+   border:1px solid grey;
+   padding-left: 20px;
+}
+p{
+    display: inline-block;
+    float: left;
+    padding-left: 40px;
+    margin: 5px;
+}
+.resign button{
+    width: 220px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    background-color: #167bff;
+    color: white;
+    margin: 20px;
