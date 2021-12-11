@@ -1,6 +1,22 @@
 .center{
     text-align: center;
 }
+.hder {
+    overflow: hidden;
+}
+.hder p {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    position: relative;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 230px;
+    top: 10px;
+}
 .divbg{
     /* background-image: url(../img/background.jpg); */
     background-size: cover;
@@ -21,6 +37,11 @@
     font: optional;
     text-decoration: none;
     font-size: 20px;
+    position: relative;
+}
+.bt-account {
+    position: relative;
+    /* float: left; */
 }
 .hrela:hover{
     color: black;
@@ -337,9 +358,6 @@
     width: 100%;
     z-index: 20;
 }
-.nav-main{
-    /* margin-bottom: 10px; */
-}
 .ct-text-header-items{
     width: 600px;
     background-color:#f3d1b6;
@@ -402,4 +420,32 @@
 .hd-comment-admin>p{
     font-weight: bold;
     border-bottom: 1px solid black;
+}
+.menu-account {
+    position: absolute;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 180px;
+
+}
+.menu-account ul {
+    /* margin-right: 10px; */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.menu-account a {
+    color: black;
+    font-size: 15px;
+}
+.menu-account a:hover {
+    text-decoration: none;
+}
+.menu-account ul:hover {
+    background-color: blanchedalmond;
+}
+.bt-account:hover .menu-account {
+    display: block;
 }

@@ -45,6 +45,7 @@
 }
 .itemsbottomcarousel>img{
     width: 80px;
+    margin-top: 10px;
 }
 .bottomcarouselitems{
     overflow: hidden;
@@ -295,3 +296,9 @@
   .asidefootter{
       margin-right: 10px;
   }
+.w-100{
+    height: 100%;
+}
+.mr-bt-75{
+    margin-bottom: 75px;
+}

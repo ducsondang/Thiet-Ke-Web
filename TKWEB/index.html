@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <a class="gotopbtn"href="#"><i class="fas fa-arrow-up"></i></a>
+  <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
   <div class="divbg">
     <div class="banerqcleftright">
       <div class="banerqclefr">
@@ -52,8 +52,13 @@
     </div>
     <div class="hader-main">
       <header class="hder center">
-        <h1><strong>Chào mừng bạn đến với chúng tôi &#128171;</span></strong></h1>
-        <h3><strong>Chúng tôi đã trở lại và mang một sứ mệnh mới! &#128171;</strong></h3>
+        <div class="logo">
+          <img class="logo" src="./img/logo.png" alt="s and v">
+        </div>
+        <div class="conten-hader">
+         <p><strong>Chào mừng bạn đến với chúng tôi &#128171;</strong></p>
+         <p><strong>Chúng tôi đã trở lại và mang một sứ mệnh mới! &#128171;</strong></p>
+        </div>
       </header>
       <nav class="nav-main">
         <div class="tablenav">
@@ -62,7 +67,32 @@
           <a class="hrela" href="#"><i class="fas fa-phone-square-alt"></i>Liên hệ</a>
           <a class="hrela" href="#"><i class="fas fa-comment"></i>Hỏi đáp</a>
           <a class="hrela" href="#"><i class="fas fa-question"></i>Gợi ý</a>
-          <a class="hrela" href="./login/login.html"><i class="fas fa-user"></i>tài khoản</a>
+          <span type="button" class="hrela bt-account"><i class="fas fa-user"></i>
+            tài khoản
+            <div class="menu-account">
+              <div class="login-account" style='border-top-left-radius: 5px; border-top-right-radius: 5px;'>
+                <ul>
+                  <li>
+                    <a href="./login/login.html">Đăng nhập</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="logout-account">
+                <ul>
+                  <li>
+                    <a href="">Đăng xuất</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="account-information" style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+                <ul>
+                  <li>
+                    <a href="">Thông tin tài khoản</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </span>
           <input class="iput" type="text" placeholder="Bạn đang cần gì?">
           <button class="btsearch bt" type="submit">Tìm</button>
           <img src="" alt="">
@@ -73,34 +103,34 @@
       <div class="sectionchinh">
         <article class="articlechinh">
           <div class="baner">
-            <div class="chubaner">
+            <div class="chubaner"> 
               <p class="chumot">Hãy đặt niềm tin ở chúng tôi <span style="color: #f3d1b6;">&#10084;</span></p>
               <p class="chuhai">Bạn ở đâu chúng tôi ở đó!</p>
             </div>
           </div>
           <div class="cthaderm">
             <div class="thanhchon">
-                <a class="cttab-thanhchon" href="../TKWEB/items/main-menu-Iphone.html">
-                  <p> &#128241; Phụ kiện di động</p>
-                </a>
-                <a class="cttab-thanhchon" href="../TKWEB/items/main-menu-macbook.html">
-                  <p> &#128187; Phụ kiện Laptop</p>
-                </a>
-                <a class="cttab-thanhchon" href="">
-                  <p>&#127911; Phụ kiện Âm thanh</p>
-                </a>
-                <a class="cttab-thanhchon" href="">
-                  <p>&#128190; Thiết bị Lưu trữ </p>
-                </a>
-                <a class="cttab-thanhchon" href="">
-                  <p> &#10024; Hãng nổi tiếng</p>
-                </a>
-                <a class="cttab-thanhchon" href="">
-                  <p> &#128424; PC, máy in</p>
-                </a>
-                <a class="cttab-thanhchon" href="">
-                  <p> &#10031; Phụ kiện khác</p>
-                </a>
+              <a class="cttab-thanhchon" href="../TKWEB/items/main-menu-Iphone.html">
+                <p> &#128241; Phụ kiện di động</p>
+              </a>
+              <a class="cttab-thanhchon" href="../TKWEB/items/main-menu-macbook.html">
+                <p> &#128187; Phụ kiện Laptop</p>
+              </a>
+              <a class="cttab-thanhchon" href="">
+                <p>&#127911; Phụ kiện Âm thanh</p>
+              </a>
+              <a class="cttab-thanhchon" href="">
+                <p>&#128190; Thiết bị Lưu trữ </p>
+              </a>
+              <a class="cttab-thanhchon" href="">
+                <p> &#10024; Hãng nổi tiếng</p>
+              </a>
+              <a class="cttab-thanhchon" href="">
+                <p> &#128424; PC, máy in</p>
+              </a>
+              <a class="cttab-thanhchon" href="">
+                <p> &#10031; Phụ kiện khác</p>
+              </a>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide jbtron ctcarousel" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -158,7 +188,8 @@
                       <p class="cthader-nut" style="color: white;">Macbook</p>
                     </div>
                     <div class="ctbody-nut">
-                      <img style="margin-left: 0px; width: 137.5px;" class="ctbody-nut" src="./img/macbook-pro.jfif" alt="iphone">
+                      <img style="margin-left: 0px; width: 137.5px;" class="ctbody-nut" src="./img/macbook-pro.jfif"
+                        alt="iphone">
                     </div>
                   </a>
                 </div>
@@ -178,17 +209,17 @@
           <div class="itemitem">
             <div class="haderbanchay">
               <div class="ct-text-header-items">
-               <strong> Sản phẩm bán chạy nhất </strong>
+                <strong> Sản phẩm bán chạy nhất </strong>
               </div>
-              </div>
+            </div>
             <div class="top-items">
               <a href="../TKWEB/items/items.html" class="item" style="margin-left: 5px;">
                 <div class="itemhader">
-                  <p><strong>Iphone 12 Pro Max</strong></p>
+                  <p><strong>Iphone 11 Pro Max</strong></p>
                 </div>
                 <div class="padingitem">
                   <div class="itembody img-container">
-                    <img class="itemhinh" src="img/Iphone12pro.jpg" alt="nokia">
+                    <img class="itemhinh" src="img/ip11.jpg" alt="nokia">
                   </div>
                 </div>
                 <div class="itemfooter">
@@ -201,13 +232,13 @@
                   <p class="itemgia itemdam">Giá bán: 27.000.000 VND</p>
                 </div>
               </a>
-              <a href="#" class="item">
+              <a href="../TKWEB/items/items1.html" class="item">
                 <div class="itemhader">
-                  <p><strong>Iphone 11 ProMax</strong></p>
+                  <p><strong>Iphone 12 ProMax</strong></p>
                 </div>
                 <div class="padingitem">
                   <div class="itembody img-container">
-                    <img class="itemhinh" src="img/ip11.jpg" alt="nokia">
+                    <img class="itemhinh" src="img/Iphone12pro.jpg" alt="nokia">
                   </div>
                 </div>
                 <div class="itemfooter">
@@ -278,11 +309,11 @@
                 </div>
               </a>
             </div>
-          </div>         
+          </div>
           <div class="itemitem">
             <div class="haderbanchay">
               <div class="ct-text-header-items">
-               <strong>Săn Sale mỗi ngày cùng S&V</strong>
+                <strong>Săn Sale mỗi ngày cùng S&V</strong>
               </div>
             </div>
             <div class="top-items">
@@ -367,7 +398,7 @@
                     <div class="ct-itemm">256G</div>
                   </div>
                   <p class="itemgia" style="text-decoration: line-through;">Giá gốc: 15.200.000.VND</p>
-                  <p class="itemgia itemdam">Giá bán: 13.600.000.VND</p>
+                  <p class="itemgia itemdam">Giá bán: 14.680.000.VND</p>
                 </div>
               </a>
               <a href="#" class="item">
@@ -388,7 +419,7 @@
                     <div class="ct-itemm">None</div>
                   </div>
                   <p class="itemgia" style="text-decoration: line-through;">Giá gốc: 6.400.000.VND</p>
-                  <p class="itemgia"class="itemgia itemdam"><strong>Giá bán: 4.800.000.VND</strong></p>
+                  <p class="itemgia" class="itemgia itemdam"><strong>Giá bán: 5.440.000.VND</strong></p>
                 </div>
               </a>
             </div>
@@ -396,105 +427,106 @@
           <div class="itemitem">
             <div class="haderbanchay">
               <div class="ct-text-header-items">
-              <strong>Hàng đã qua sử dụng</strong>
+                <strong>Hàng đã qua sử dụng</strong>
               </div>
             </div>
             <div class="top-items">
               <a href="#" class="item" style="margin-left: 5px;">
                 <div class="itemhader">
-                  <p><strong>Iphone 7PLus</strong></p></div>
-              <div class="padingitem">
-                <div class="itembody img-container">
-                  <img class="itemhinh" src="img/i7.jpg" alt="nokia">
+                  <p><strong>Iphone 7PLus</strong></p>
                 </div>
-              </div>
-              <div class="itemfooter">
-                <div class="ct-item">
-                  <div class="ct-itemm">
-                    128G
+                <div class="padingitem">
+                  <div class="itembody img-container">
+                    <img class="itemhinh" src="img/i7.jpg" alt="nokia">
                   </div>
-                  <div class="ct-itemm">256G</div>
                 </div>
-                <p class="itemgia itemdam">Giá bán: 9.000.000.VND</p>
-              </div>
-            </a>
-            <a href="#" class="item">
-              <div class="itemhader">
-                <p><strong>Iphone 6PLus</strong></p>
-              </div>
-              <div class="padingitem">
-                <div class="itembody img-container">
-                  <img class="itemhinh" src="img/i6.jpg" alt="nokia">
-                </div>
-              </div>
-              <div class="itemfooter">
-                <div class="ct-item">
-                  <div class="ct-itemm">
-                    64G
+                <div class="itemfooter">
+                  <div class="ct-item">
+                    <div class="ct-itemm">
+                      128G
+                    </div>
+                    <div class="ct-itemm">256G</div>
                   </div>
-                  <div class="ct-itemm">128G</div>
+                  <p class="itemgia itemdam">Giá bán: 9.000.000.VND</p>
                 </div>
-                <p class="itemgia itemdam">Giá bán: 7.000.000.VND</p>
-              </div>
-            </a>
-            <a href="#" class="item">
-              <div class="itemhader">
-                <p><strong>Tai nghe dây iphone</strong></p>
-              </div>
-              <div class="padingitem">
-                <div class="itembody img-container">
-                  <img class="itemhinh" src="img/tainghe.jfif" alt="nokia">
+              </a>
+              <a href="#" class="item">
+                <div class="itemhader">
+                  <p><strong>Iphone 6PLus</strong></p>
                 </div>
-              </div>
-              <div class="itemfooter">
-                <div class="ct-item">
-                  <div class="ct-itemm">
-                    None
+                <div class="padingitem">
+                  <div class="itembody img-container">
+                    <img class="itemhinh" src="img/i6.jpg" alt="nokia">
                   </div>
-                  <div class="ct-itemm">None</div>
                 </div>
-                <p class="itemgia itemdam">Giá bán: 50.000.VND</p>
-              </div>
-            </a>
-            <a href="#" class="item">
-              <div class="itemhader">
-                <p><strong>Laptop Asus E402</strong></p>
-              </div>
-              <div class="padingitem">
-                <div class="itembody img-container">
-                  <img class="itemhinh" src="img/asus.png" alt="nokia">
-                </div>
-              </div>
-              <div class="itemfooter">
-                <div class="ct-item">
-                  <div class="ct-itemm">
-                    64G
+                <div class="itemfooter">
+                  <div class="ct-item">
+                    <div class="ct-itemm">
+                      64G
+                    </div>
+                    <div class="ct-itemm">128G</div>
                   </div>
-                  <div class="ct-itemm">i5</div>
+                  <p class="itemgia itemdam">Giá bán: 7.000.000.VND</p>
                 </div>
-                <p class="itemgia itemdam">Giá bán: 12.000.000.VND</p>
-              </div>
-            </a>
-            <a href="#" class="item">
-              <div class="itemhader">
-                <p><strong>Usb Sandisk</strong></p>
-              </div>
-              <div class="padingitem">
-                <div class="itembody img-container">
-                  <img class="itemhinh" src="img/usb.jpg" alt="nokia">
+              </a>
+              <a href="#" class="item">
+                <div class="itemhader">
+                  <p><strong>Tai nghe dây iphone</strong></p>
                 </div>
-              </div>
-              <div class="itemfooter">
-                <div class="ct-item">
-                  <div class="ct-itemm">
-                    32G
+                <div class="padingitem">
+                  <div class="itembody img-container">
+                    <img class="itemhinh" src="img/tainghe.jfif" alt="nokia">
                   </div>
-                  <div class="ct-itemm">16GB</div>
                 </div>
-                <p class="itemgia itemdam">Giá bán: 40.000.VND</p>
-              </div>
-            </a>
-          </div>
+                <div class="itemfooter">
+                  <div class="ct-item">
+                    <div class="ct-itemm">
+                      None
+                    </div>
+                    <div class="ct-itemm">None</div>
+                  </div>
+                  <p class="itemgia itemdam">Giá bán: 50.000.VND</p>
+                </div>
+              </a>
+              <a href="#" class="item">
+                <div class="itemhader">
+                  <p><strong>Laptop Asus E402</strong></p>
+                </div>
+                <div class="padingitem">
+                  <div class="itembody img-container">
+                    <img class="itemhinh" src="img/asus.png" alt="nokia">
+                  </div>
+                </div>
+                <div class="itemfooter">
+                  <div class="ct-item">
+                    <div class="ct-itemm">
+                      64G
+                    </div>
+                    <div class="ct-itemm">i5</div>
+                  </div>
+                  <p class="itemgia itemdam">Giá bán: 12.000.000.VND</p>
+                </div>
+              </a>
+              <a href="#" class="item">
+                <div class="itemhader">
+                  <p><strong>Usb Sandisk</strong></p>
+                </div>
+                <div class="padingitem">
+                  <div class="itembody img-container">
+                    <img class="itemhinh" src="img/usb.jpg" alt="nokia">
+                  </div>
+                </div>
+                <div class="itemfooter">
+                  <div class="ct-item">
+                    <div class="ct-itemm">
+                      32G
+                    </div>
+                    <div class="ct-itemm">16GB</div>
+                  </div>
+                  <p class="itemgia itemdam">Giá bán: 40.000.VND</p>
+                </div>
+              </a>
+            </div>
         </article>
       </div>
     </div>
@@ -502,66 +534,66 @@
       <div class="footerchinhchinh">
         <div class="footermot">
           <div class="footera">
-              <div class="footermn footerchung">
-                <div>
-                  <a class="abc" href=""> &#10146; Cộng tác cùng S&V</a>
-                </div>
-                <div>
-                  <a class="abc" href=""> &#10146; Chính sách bảo hành</a>
-                </div>
-                <div>
-                  <a class="abc" href="">&#10146; Mua hàng trả góp</a>
-                </div>
-                <div>
-                  <a class="abc" href=""> &#10146; Tìm hiểu siêu thị</a>
-                </div>
+            <div class="footermn footerchung">
+              <div>
+                <a class="abc" href=""> &#10146; Cộng tác cùng S&V</a>
               </div>
-              <div class="footermn footerchung">
-                <div>
-                  <a class="abc" href=""> &#9758;
-                    Tuyển dụng</a>
-                </div>
-                <div>
-                  <a class="abc" href=""> &#9758;
-                    Góp ý, kiếu nại</a>
-                </div>
-                <div>
-                  <a class="abc" href=""> &#9758;
-                    Tìm hiểu siêu thị</a>
-                </div>
+              <div>
+                <a class="abc" href=""> &#10146; Chính sách bảo hành</a>
               </div>
-              <div class="footermn footerchung">
-                <div>
-                  <p class="abcde" style="margin-bottom: 0px; font-weight: bold;">Thông tin liên hệ</p>
-                </div>
-                <div>
-                  <img src="./icon/instagram.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
-                  <a class="abc" href="https://www.instagram.com/dangducson.xin/"> Instagram:</a>
-                </div>
-                <div>
-                  <img src="./icon/facebook.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
-                  <a class="abc abcd" href=""> Facebook: Vũ Phạm / Đức Sơn</a>
-                </div>
-                <div>
-                  <img src="./icon/gmail.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
-                  <a class="abc" href=""> Gmail:1851050190vu@ou.edu.vn</a>
-                </div>
+              <div>
+                <a class="abc" href="">&#10146; Mua hàng trả góp</a>
               </div>
-              <div class="footermn footerchung">
-                <div>
-                  <img src="./icon/hotline.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
-                  <p class="abcde" href="" style="font-weight: bold; margin-bottom: 0px;">Đừng dây nóng</p>
-                </div>
-                <div>
-                  <a class="abc" href="">Gọi mua: 19001800</a>
-                </div>
-                <div>
-                  <a class="abc" href="">Tư vấn, khiếu nại: 19001801</a>
-                </div>
-                <div>
-                  <a class="abc" href="">Hỗ trợ kỹ thuật: 19001802</a>
-                </div>
+              <div>
+                <a class="abc" href=""> &#10146; Tìm hiểu siêu thị</a>
               </div>
+            </div>
+            <div class="footermn footerchung">
+              <div>
+                <a class="abc" href=""> &#9758;
+                  Tuyển dụng</a>
+              </div>
+              <div>
+                <a class="abc" href=""> &#9758;
+                  Góp ý, kiếu nại</a>
+              </div>
+              <div>
+                <a class="abc" href=""> &#9758;
+                  Tìm hiểu siêu thị</a>
+              </div>
+            </div>
+            <div class="footermn footerchung">
+              <div>
+                <p class="abcde" style="margin-bottom: 0px; font-weight: bold;">Thông tin liên hệ</p>
+              </div>
+              <div>
+                <img src="./icon/instagram.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
+                <a class="abc" href="https://www.instagram.com/dangducson.xin/"> Instagram:</a>
+              </div>
+              <div>
+                <img src="./icon/facebook.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
+                <a class="abc abcd" href=""> Facebook: Vũ Phạm / Đức Sơn</a>
+              </div>
+              <div>
+                <img src="./icon/gmail.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
+                <a class="abc" href=""> Gmail:1851050190vu@ou.edu.vn</a>
+              </div>
+            </div>
+            <div class="footermn footerchung">
+              <div>
+                <img src="./icon/hotline.svg" style="float: left; height: 21px; margin-right: 5px;" alt="">
+                <p class="abcde" href="" style="font-weight: bold; margin-bottom: 0px;">Đừng dây nóng</p>
+              </div>
+              <div>
+                <a class="abc" href="">Gọi mua: 19001800</a>
+              </div>
+              <div>
+                <a class="abc" href="">Tư vấn, khiếu nại: 19001801</a>
+              </div>
+              <div>
+                <a class="abc" href="">Hỗ trợ kỹ thuật: 19001802</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -582,6 +614,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="./js/js.js"></script>
 </body>
 
 </html>
+
+
+

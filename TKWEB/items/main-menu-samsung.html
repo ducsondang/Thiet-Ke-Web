@@ -21,8 +21,13 @@
   <div class="divbg">
     <div class="hader-main">
       <header class="hder center">
-        <h1><strong>Chào mừng bạn đến với chúng tôi &#128171;</span></strong></h1>
-        <h3><strong>Chúng tôi đã trở lại và mang một sứ mệnh mới! &#128171;</strong></h3>
+        <div class="logo">
+          <img class="logo" src="../img/logo.png" alt="s and v">
+        </div>
+        <div class="conten-hader">
+         <p><strong>Chào mừng bạn đến với chúng tôi &#128171;</strong></p>
+         <p><strong>Chúng tôi đã trở lại và mang một sứ mệnh mới! &#128171;</strong></p>
+        </div>
       </header>
       <nav class="nav-main">
         <div class="tablenav">
@@ -31,7 +36,32 @@
           <a class="hrela" href="#"><i class="fas fa-phone-square-alt"></i>Liên hệ</a>
           <a class="hrela" href="#"><i class="fas fa-comment"></i>Hỏi đáp</a>
           <a class="hrela" href="#"><i class="fas fa-question"></i>Gợi ý</a>
-          <a class="hrela" href="#"><i class="fas fa-user"></i>tài khoản</a>
+          <span type="button" class="hrela bt-account"><i class="fas fa-user"></i>
+            tài khoản
+            <div class="menu-account">
+              <div class="login-account" style='border-top-left-radius: 5px; border-top-right-radius: 5px;'>
+                <ul>
+                  <li>
+                    <a href="./login/login.html">Đăng nhập</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="logout-account">
+                <ul>
+                  <li>
+                    <a href="">Đăng xuất</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="account-information" style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+                <ul>
+                  <li>
+                    <a href="">Thông tin tài khoản</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </span>
           <input class="iput" type="text" placeholder="Bạn đang cần gì?">
           <button class="btsearch bt" type="submit">Tìm</button>
           <img src="" alt="">
